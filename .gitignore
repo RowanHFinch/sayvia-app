@@ -1,0 +1,34 @@
+# macOS and Xcode user state
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Builds and caches
+.build/
+dist/
+.swiftpm/
+*.app/
+*.dmg
+*.pkg
+
+# Credentials and signing material
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.keychain*
+
+# Recordings, databases and logs
+*.log
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.wav
+*.m4a
+*.aac
+*.mp3
+*.flac
